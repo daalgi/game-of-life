@@ -1,0 +1,20 @@
+.btn-sidebar {
+    background: hsl(213, 17%, 70%);
+    border: 1px solid hsl(0, 0%, 30%);
+    user-select: none;
+    width: 100%;
+    text-align: left;
+    padding: 8px;
+    margin: 1px 8px;
+}
+.btn-sidebar:hover {
+    background: hsl(213, 17%, 60%);
+    /* box-shadow: 0px 0px 2px 6px hsla(0, 0%, 50%, 0.3);    */
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 150px;
+    height: 100%;
+    margin: 0 32px 0 0;
+}

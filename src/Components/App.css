@@ -1,0 +1,52 @@
+.app {
+  width: 100%;
+  margin: 12px auto;
+  display: grid;
+  grid-template-columns: 165px 740px;
+  grid-template-areas: 
+  "logo title"
+  ". controls"
+  "sidebar main";
+  grid-gap: 1rem;
+  align-items: center;
+}
+
+#logo {
+  grid-area: logo;
+  text-decoration: none;
+  width: 164px;
+  text-align: center;
+  font-size: 1.3em;
+  color: hsl(213, 17%, 23%);
+}
+#logo:hover{
+  /* border-bottom: 2px solid hsl(213, 17%, 23%); */
+  color: hsl(213, 17%, 43%);
+  text-decoration: underline;
+}
+
+#title {
+  grid-area: title;
+}
+.controls {
+  grid-area: controls;
+  padding: 16px;  
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.main {
+  grid-area: main;
+  /* display: flex;
+  justify-content: center; */
+
+}
+
+canvas {
+  user-select: none;
+}
